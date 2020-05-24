@@ -3,7 +3,7 @@
 
 <head>
  
-<title>The Headquarters - {Title}</title>
+<title>Le Page</title>
   
 <style type="text/css">
  
@@ -76,11 +76,20 @@
   -o-transition: all 0.4s ease-in-out;
 }
  .sidebartext a:hover {
-  color:{color:music player color};
+  color:#adhd;
   cursor:pointer;
   text-decoration:underline;
   letter-spacing:5px;
 }
+ 
+ .divs {
+  opacity:0;
+  background-color:#dddddd;
+ }
+ 
+ .divs:target {
+  opacity:1;
+ }  
  
 </style>
  
@@ -125,10 +134,28 @@
       
     </div>
     
-    <div class="post">
+    <div class="divs" id="home">
       <div class="text">
          Mmmm.
       </div>
+    </div>
+   
+    <div class="divs" id="blog">
+      <div class="text">
+         Mmmm.
+      </div>
+    </div>
+   
+    <div class="divs" id="about">
+      <div class="text">
+         Mmmm.
+      </div>
+    </div>
+
+    <div class="divs" id="contact">
+      <div class="text">
+         Mmmm.
+      </div>     
     </div>
     
   </div>
